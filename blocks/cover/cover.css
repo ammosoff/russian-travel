@@ -1,0 +1,23 @@
+.cover {
+  max-width: 1184px;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1124px) {
+  .cover {
+    width: calc(100% + (48px*2));
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .cover {
+    width: calc(100% + (24px*2));
+  }
+}
+ 
+@media screen and (max-width: 568px) {
+  .cover {
+    width: calc(100% + (16px*2));
+  }
+}

@@ -1,0 +1,36 @@
+.content {
+  max-width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 92px;
+  padding: 56px 0 92px;
+}
+
+@media screen and (max-width: 1124px) {
+  .content {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .content {
+    row-gap: 88px;
+    padding-bottom: 88px;
+  }
+  
+  .content:last-of-type {
+    row-gap: 90px;
+  }
+}
+ 
+@media screen and (max-width: 568px) {
+  .content {
+    row-gap: 64px;
+    padding-bottom: 64px;
+  }
+
+  .content:last-of-type {
+     row-gap: 66px;
+  }
+}
